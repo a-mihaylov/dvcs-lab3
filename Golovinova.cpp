@@ -995,3 +995,14 @@ void ClientWindow::deleteWorkInfo() {
 	ui.productionInfoStatusLabel->setText(ucode("Удалено"));
 	ui.productionTableWidget->selectedItems().at(2)->setText(ucode("Удалено"));
 }
+
+
+/*
+	QSqlQuery query = DataBaseProvider::getQuery();
+	query.prepare("UPDATE fact_of_work SET status = 4 WHERE id = ?");
+	query.addBindValue(id);
+	DataBaseProvider::execQuery(query);
+
+	ui.productionInfoStatusLabel->setText(ucode("Удалено"));
+	ui.productionTableWidget->selectedItems().at(2)->setText(ucode("Удалено"));
+*/
