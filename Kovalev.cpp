@@ -33,6 +33,7 @@ void SpinBoxDelegate::setModelData(QWidget *editor, QAbstractItemModel *model, c
     spinBox->interpretText();
     int value = spinBox->value();
     model->setData(index, value, Qt::EditRole);
+	// Первое изменение в моей ветке
 }
 
 // Give the SpinBox the info on size and location
