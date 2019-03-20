@@ -24,6 +24,7 @@ void SpinBoxDelegate::setEditorData(QWidget *editor, const QModelIndex &index) c
     // Put the value into the SpinBox
     QSpinBox *spinbox = static_cast<QSpinBox*>(editor);
     spinbox->setValue(value);
+	// Второе изменение в мастере
 }
 
 
