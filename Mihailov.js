@@ -12,7 +12,7 @@ export class LoginOrSignup extends Component {
     constructor(props) {
         super(props);
 	}
-	
+	//второй мастер
 	login() {
 		
 		const email = document.getElementById("emailInput").value;
