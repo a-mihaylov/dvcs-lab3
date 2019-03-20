@@ -58,6 +58,7 @@ void AuthorizationDialog::authorize() {
 	}
 
 	int currentUser = userId;
+	int col = 0;
 	bool isAdmin = true;
 	if (currentUser != 1) {
 		QSqlQuery queryIdSelect = DataBaseProvider::getQuery();
