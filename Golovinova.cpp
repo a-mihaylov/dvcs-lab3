@@ -980,7 +980,7 @@ void ClientWindow::saveEditWorkInfo() {
 
 	setDefaultStateMyWorkInfoData(true);
 }
-
+/*
 void ClientWindow::deleteWorkInfo() {
 	int row = ui.productionTableWidget->selectedItems().at(0)->row();
 	int id = ui.hiddenIdWorkSpinBox->value();
@@ -995,8 +995,7 @@ void ClientWindow::deleteWorkInfo() {
 	ui.productionInfoStatusLabel->setText(ucode("Удалено"));
 	ui.productionTableWidget->selectedItems().at(2)->setText(ucode("Удалено"));
 }
-
-void ClientWindow::eeeWorkInfo() {
+*/
 	int row = ui.productionTableWidget->selectedItems().at(0)->row();
 	int id = ui.hiddenIdWorkSpinBox->value();
 
