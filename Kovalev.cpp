@@ -14,6 +14,7 @@ QWidget* SpinBoxDelegate::createEditor(QWidget *parent, const QStyleOptionViewIt
     editor->setMinimum(0);
     editor->setMaximum(100);
     return editor;
+	// Второе изменение в моей ветке
 }
 
 
