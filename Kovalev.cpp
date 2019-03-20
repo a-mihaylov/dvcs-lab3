@@ -14,6 +14,7 @@ QWidget* SpinBoxDelegate::createEditor(QWidget *parent, const QStyleOptionViewIt
     editor->setMinimum(0);
     editor->setMaximum(100);
     return editor;
+	// Второе изменение в моей ветке
 }
 
 
@@ -33,6 +34,7 @@ void SpinBoxDelegate::setModelData(QWidget *editor, QAbstractItemModel *model, c
     spinBox->interpretText();
     int value = spinBox->value();
     model->setData(index, value, Qt::EditRole);
+	// Первое изменение в моей ветке
 }
 
 // Give the SpinBox the info on size and location
