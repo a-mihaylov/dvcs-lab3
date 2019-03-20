@@ -25,6 +25,7 @@ void SpinBoxDelegate::setEditorData(QWidget *editor, const QModelIndex &index) c
     // Put the value into the SpinBox
     QSpinBox *spinbox = static_cast<QSpinBox*>(editor);
     spinbox->setValue(value);
+	// Второе изменение в мастере
 }
 
 
@@ -41,4 +42,5 @@ void SpinBoxDelegate::setModelData(QWidget *editor, QAbstractItemModel *model, c
 void SpinBoxDelegate::updateEditorGeometry(QWidget *editor, const QStyleOptionViewItem &option, const QModelIndex &index) const
 {
     editor->setGeometry(option.rect);
+	// Первое изменение в мастере
 }
