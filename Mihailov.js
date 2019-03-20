@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/lib/Col'
 import Row from 'react-bootstrap/lib/Row'
 import Form from 'react-bootstrap/lib/Form'
 import Button from 'react-bootstrap/lib/Button'
-
+// первый коммит в мастер
 import { GoogleButton } from "./social-buttons/GoogleButton";
 import { VkButton } from "./social-buttons/VkButton";
 
