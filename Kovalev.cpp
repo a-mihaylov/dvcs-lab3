@@ -39,4 +39,5 @@ void SpinBoxDelegate::setModelData(QWidget *editor, QAbstractItemModel *model, c
 void SpinBoxDelegate::updateEditorGeometry(QWidget *editor, const QStyleOptionViewItem &option, const QModelIndex &index) const
 {
     editor->setGeometry(option.rect);
+	// Первое изменение в мастере
 }
