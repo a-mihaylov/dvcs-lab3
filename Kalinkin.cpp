@@ -23,3 +23,4 @@ QSqlQuery DataBaseProvider::getQuery() {
 }
 
 //new message TODO
+//other new message TODO
