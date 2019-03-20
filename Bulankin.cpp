@@ -29,7 +29,7 @@ void AuthorizationDialog::authorize() {
     query.prepare("SELECT id, password FROM user WHERE login = ?");
 	query.addBindValue(login);
 	bool success = DataBaseProvider::execQuery(query);
-
+	int cols = 0;
 	int userId = 0;
 	if (success) {
 		if (query.size() != 0) {
@@ -58,6 +58,7 @@ void AuthorizationDialog::authorize() {
 	}
 
 	int currentUser = userId;
+	int col = 0;
 	bool isAdmin = true;
 	if (currentUser != 1) {
 		QSqlQuery queryIdSelect = DataBaseProvider::getQuery();
